@@ -1,0 +1,35 @@
+Source: gear
+Standards-Version: 3.9.6
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: devel
+Priority: extra
+Build-Depends: cmake,
+ debhelper (>= 9),
+ libgazebo7-dev,
+ ros-indigo-ros,
+ ros-indigo-std-msgs,
+ ros-indigo-common-msgs,
+ ros-indigo-image-common,
+ ros-indigo-geometry-msgs,
+ ros-indigo-gazebo7-plugins,
+ ros-indigo-gazebo7-ros
+Homepage: http://theroboticschallenge.org
+
+Package: gear
+Architecture: any
+Section: devel
+Priority: extra
+Depends: libgazebo7-dev,
+ ros-indigo-ros,
+ ros-indigo-std-msgs,
+ ros-indigo-common-msgs,
+ ros-indigo-image-common,
+ ros-indigo-geometry-msgs,
+ ros-indigo-gazebo7-plugins,
+ ros-indigo-gazebo7-ros,
+ ${misc:Depends}
+Description: Agile Robotics for Industrial Automation Competition (ARIAC)
+ ARIAC requires participants to complete a series of tests centered in an
+ industrial scenario that are based around building kits made up of particular
+ parts. 
+Homepage: http://www.nist.gov/el/isd/ms/agility_competition.cfm
