@@ -10,8 +10,11 @@
 export DH_VERBOSE=1
 export DH_OPTIONS=-v
 
-%:
-	dh  $@
+.PHONY: override_dh_auto_configure     \
+        override_dh_auto_build         \
+        override_dh_auto_install       \
+        override_dh_shlibdeps          \
+        override_dh_auto_test
 
 override_dh_auto_configure:
 	# Pull in ROS and Gazebo configuration
@@ -41,5 +44,7 @@ override_dh_auto_install:
 
 override_dh_auto_test:
 	echo -- Skipping tests
-	#dh_auto_test
 	true
+
+%:
+	dh $@ --parallel
