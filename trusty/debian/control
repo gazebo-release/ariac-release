@@ -27,6 +27,7 @@ Depends: libgazebo7-dev,
  ros-indigo-geometry-msgs,
  ros-indigo-gazebo7-plugins,
  ros-indigo-gazebo7-ros,
+ ros-indigo-xacro
  ${misc:Depends}
 Description: Agile Robotics for Industrial Automation Competition (ARIAC)
  ARIAC requires participants to complete a series of tests centered in an
