@@ -14,10 +14,12 @@ export DH_OPTIONS=-v
         override_dh_auto_build         \
         override_dh_auto_install       \
         override_dh_shlibdeps          \
+        override_dh_auto_clean         \
         override_dh_auto_test
 
 override_dh_auto_configure:
 	# Pull in ROS and Gazebo configuration
+	cp -a osrf_gear/* . && \
 	. "/opt/ros/indigo/setup.sh" && \
 	. "/usr/share/gazebo/setup.sh" && \
 	dh_auto_configure -- \
@@ -25,6 +27,10 @@ override_dh_auto_configure:
                 -DCATKIN_BUILD_BINARY_PACKAGE="1" \
                 -DCMAKE_INSTALL_PREFIX="/opt/ros/indigo" \
                 -DCMAKE_PREFIX_PATH="/opt/ros/indigo"
+
+override_dh_auto_clean:
+	rm -fr osrf_gear \
+	dh_auto_clean --
 
 override_dh_auto_build:
 	. "/opt/ros/indigo/setup.sh" && \
