@@ -25,8 +25,9 @@ Depends: libgazebo7-dev,
  ros-indigo-common-msgs,
  ros-indigo-image-common,
  ros-indigo-geometry-msgs,
- ros-indigo-gazebo7-plugins,
- ros-indigo-gazebo7-ros,
+ ros-indigo-gazebo7-ros-pkgs,
+ ros-indigo-controller-manager,
+ ros-indigo-robot-state-publisher,
  ros-indigo-xacro,
  ${misc:Depends}
 Description: Agile Robotics for Industrial Automation Competition (ARIAC)
