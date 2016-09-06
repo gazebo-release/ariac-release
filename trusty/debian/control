@@ -1,4 +1,4 @@
-Source: gear
+Source: ariac
 Standards-Version: 3.9.6
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: devel
@@ -15,7 +15,7 @@ Build-Depends: cmake,
  ros-indigo-gazebo7-ros
 Homepage: http://theroboticschallenge.org
 
-Package: gear
+Package: ariac
 Architecture: any
 Section: devel
 Priority: extra
