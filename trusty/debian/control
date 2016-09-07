@@ -15,7 +15,17 @@ Build-Depends: cmake,
  ros-indigo-gazebo7-ros
 Homepage: http://theroboticschallenge.org
 
+Package: gear
+Depends: ariac, ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: transitional package
+ This is a transitional package. It can safely be removed.
+
 Package: ariac
+Replaces: gear (<< 0.0.0-1~trusty)
+Breaks: gear (<< 0.0.0-1~trusty)
 Architecture: any
 Section: devel
 Priority: extra
@@ -39,4 +49,3 @@ Description: Agile Robotics for Industrial Automation Competition (ARIAC)
  ARIAC requires participants to complete a series of tests centered in an
  industrial scenario that are based around building kits made up of particular
  parts. 
-Homepage: http://www.nist.gov/el/isd/ms/agility_competition.cfm
