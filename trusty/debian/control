@@ -44,7 +44,6 @@ Depends: libgazebo7-dev,
  ros-indigo-joint-state-controller,
  ros-indigo-robot-state-publisher,
  ros-indigo-xacro,
- python-catkin-tools,
  ${misc:Depends}
 Description: Agile Robotics for Industrial Automation Competition (ARIAC)
  ARIAC requires participants to complete a series of tests centered in an
