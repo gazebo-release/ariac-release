@@ -1,0 +1,6 @@
+ariac (0.0.0-1~xenial) xenial; urgency=medium
+
+  * Rename package: from gear to ariac
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Wed, 07 Sep 2016 00:54:13 +0200
+
