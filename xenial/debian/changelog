@@ -1,4 +1,10 @@
-ariac (1.0.0-1~trusty) trusty; urgency=medium
+ariac (1.0.1-1~xenial) xenial; urgency=medium
+
+  * ariac 1.0.1-1 release
+
+ -- D Hood <dhood@osrfoundation.org>  Mon, 06 Mar 2017 00:54:13 +0200
+
+ariac (1.0.0-1~xenial) xenial; urgency=medium
 
   * ariac 1.0.0-1 release (qual 2)
 
