@@ -1,3 +1,9 @@
+ariac (1.1.0-1~trusty) trusty; urgency=medium
+
+  * ariac 1.1.0-1 release
+
+ -- D Hood <dhood@osrfoundation.org>  Thu, 13 Apr 2017 15:13:44 -0700
+
 ariac (1.0.6-1~trusty) trusty; urgency=medium
 
   * ariac 1.0.6-1 release
