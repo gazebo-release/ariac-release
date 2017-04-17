@@ -1,3 +1,9 @@
+ariac (1.1.1-1~xenial) xenial; urgency=medium
+
+  * ariac 1.1.1-1 release
+
+ -- D Hood <dhood@osrfoundation.org>  Mon, 17 Apr 2017 14:38:10 -0700
+
 ariac (1.1.0-1~xenial) xenial; urgency=medium
 
   * ariac 1.1.0-1 release
